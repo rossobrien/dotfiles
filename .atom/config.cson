@@ -1,0 +1,91 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDirectoryColumn: true
+    hyperclick:
+      darwinTriggerKeys: "ctrlKey"
+  "autocomplete-python":
+    useKite: false
+  core:
+    audioBeep: false
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "linter"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".pyc"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/Users/ross/Twistle"
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "brogrammer-syntax"
+    ]
+    titleBar: "custom"
+  editor:
+    fontSize: 12
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "1b276716-955f-491a-911d-359b1eaecac9"
+  fonts:
+    fontFamily: "Roboto Mono Light"
+  "gruvbox-plus-syntax":
+    contrast: "Hard"
+    variant: "No Dimmed Colors"
+  "ide-python":
+    pylsPlugins:
+      pycodestyle:
+        maxLineLength: 100
+  jslint:
+    hideOnNoErrors: true
+  "linter-eslint":
+    autofix:
+      ignoreFixableRulesWhileTyping: true
+    global:
+      eslintrcPath: "~/Twistle/.eslintrc"
+    lintHtmlFiles: true
+  "linter-js-standard":
+    lintHtmlFiles: true
+    showEslintRules: true
+    style: "happiness"
+  "linter-jslint":
+    disableWhenNoJslintrcFileInPath: true
+    lintInlineJavaScript: true
+  "linter-ui-default":
+    alwaysTakeMinimumSpace: true
+    panelHeight: 300
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "project-manager":
+    alwaysOpenInSameWindow: true
+    includeGitRepositories: true
+    savePathsRelativeToHome: true
+    sortBy: "last modified"
+  "seti-ui":
+    compactView: true
+    displayIgnored: false
+    hideProjectTab: true
+    themeColor: "Red"
+  "tree-view":
+    alwaysOpenExisting: true
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnlyLines: true
+    removeTrailingWhitespace: false
